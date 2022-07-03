@@ -6,7 +6,7 @@ import 'package:flutter/widgets.dart';
 
 import 'app/app.dart';
 
-Future<void> main() {
+Future<void> main() async {
   return BlocOverrides.runZoned(
     () async {
       WidgetsFlutterBinding.ensureInitialized();
